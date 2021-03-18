@@ -1,6 +1,6 @@
 {
   "name": "random-kiss",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,6 @@
   "author": "Gamearoo",
   "license": "MIT",
   "dependencies": {
-    "node-fecth": "^0.0.1-security",
     "node-fetch": "^2.6.1"
   }
 }

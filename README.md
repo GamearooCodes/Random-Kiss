@@ -14,14 +14,25 @@ This package was more for a test but i may make a new package for each bot.
 ```
 const kiss = require("random-kiss"); //!calls the package
 
-kiss.printMsg(); //! TEst msg to make sure the package installed  /// This is a test message from the random-kiss package
+kiss.test(); //! TEst msg to make sure the package installed  /// This is a test message from the random-kiss package
 
-console.log(kiss.kissmsg("user1", "user2")); //! msg replace user1 with the user kissing and user2 with the user there kissing /// user1 kissed user2!
+console.log(kiss.message("user1", "user2")); //! msg replace user1 with the user kissing and user2 with the user there kissing /// user1 kissed user2!
 
-console.log(test()); //! calls the function for the image! // URL
+console.log(kiss.imageurl); //! calls the function for the image! // URL
 
-async function test() {
-  return await kiss.kissimg(); //Pull the url from the package
-}
+
 ```
+
+## Upgrade to v2.0.0
+
+```
+
+kiss.kissmsg("user1", "user2") to kiss.message("user1", "user2")
+kiss.kissimg(); to kiss.imageurl
+
+
+
+```
+
+
 

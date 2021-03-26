@@ -10,18 +10,23 @@ exports.message = function (user, user2, msg) {
   return `${user} ${msg} ${user2}!`;
 };
 
-exports.imageurl = async function () {
-  const activities_list = [
-    `https://media.giphy.com/media/JYpVJEcNrDAWc/giphy.gif`,
-    `https://media.giphy.com/media/JYpVJEcNrDAWc/giphy.gif`,
-    "https://media.giphy.com/media/nyGFcsP0kAobm/giphy.gif",
-    "https://media.giphy.com/media/EVODaJHSXZGta/giphy.gif",
-    "https://gifimage.net/wp-content/uploads/2017/09/anime-forehead-kiss-gif-11.gif",
-  ];
-  const index = Math.floor(Math.random() * (activities_list.length - 1) + 1); // generates a random number between 1 and the length of the activities array list (in this case 5).
+const activities_list = [
+  `https://media.giphy.com/media/JYpVJEcNrDAWc/giphy.gif`,
+  `https://media.giphy.com/media/JYpVJEcNrDAWc/giphy.gif`,
+  "https://media.giphy.com/media/nyGFcsP0kAobm/giphy.gif",
+  "https://media.giphy.com/media/EVODaJHSXZGta/giphy.gif",
+  "https://gifimage.net/wp-content/uploads/2017/09/anime-forehead-kiss-gif-11.gif",
+];
+const index = Math.floor(Math.random() * (activities_list.length - 1) + 1);
+
+exports.kissimg = async function () {
+  console.log(`kiss.imageurl() will be remove in future major releases! We recommend switching to `)
+  // generates a random number between 1 and the length of the activities array list (in this case 5).
   return `${activities_list[index]}`;
 };
 
+exports.imageurl = activities_list[index]
+
 exports.test = async function () {
-  console.log(`This is a test log! \n Msg ${kissmsg}! \n image: ${kissimg}`)
+  console.log(`This is a test log! \n Msg ${message('1', '2')}! \n image: ${imageurl}`)
 }

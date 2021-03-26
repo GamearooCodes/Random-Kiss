@@ -17,3 +17,7 @@ exports.kissimg = async function () {
     });
   return `${url}`;
 };
+
+exports.test = async function () {
+  console.log(`This is a test log! \n Msg ${kissmsg}! \n image: ${kissimg}`)
+}

@@ -16,6 +16,7 @@ const activities_list = [
   "https://media.giphy.com/media/nyGFcsP0kAobm/giphy.gif",
   "https://media.giphy.com/media/EVODaJHSXZGta/giphy.gif",
   "https://gifimage.net/wp-content/uploads/2017/09/anime-forehead-kiss-gif-11.gif",
+  "https://i.gifer.com/8Sbz.gif"
 ];
 const index = Math.floor(Math.random() * (activities_list.length - 1) + 1);
 

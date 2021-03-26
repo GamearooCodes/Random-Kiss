@@ -28,7 +28,6 @@ console.log(kiss.imageurl); //! calls the function for the image! // URL
 ```
 
 kiss.kissmsg("user1", "user2") to kiss.message("user1", "user2")
-kiss.kissimg(); to kiss.imageurl
 
 
 

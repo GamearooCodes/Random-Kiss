@@ -1,9 +1,6 @@
 # Random Kiss
  
 
-## Requires node-fetch
- npm i node-fetch or yarn add node-fetch
-
 ## install
  npm i random-kiss or yarn add random-kiss
 
@@ -23,7 +20,7 @@ console.log(kiss.imageurl); //! calls the function for the image! // URL
 
 ```
 
-## Upgrade to v2.0.0
+## Upgrade to v2.x
 
 ```
 

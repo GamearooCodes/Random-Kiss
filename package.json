@@ -8,5 +8,10 @@
 		"version": "auto-changelog -p && git add CHANGELOG.md"
 	},
 	"author": "Gamearoo",
-	"license": "MIT"
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:GamearooCodes/Random-Kiss.git"
+	},
+	"homepage": "https://github.com/GamearooCodes/Random-Kiss#readme"
 }

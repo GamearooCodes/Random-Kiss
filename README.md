@@ -4,7 +4,6 @@
 ## install
  npm i random-kiss or yarn add random-kiss
 
-This package was more for a test but i may make a new package for each bot.
 
 ### Example
 

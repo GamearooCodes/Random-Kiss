@@ -1,7 +1,3 @@
-## Requires node-fetch
-
-Random Kiss requires node-fetch, which you can install using either `npm i node-fetch` or `yarn add node-fetch`.
-
 ## Install
 
 `npm i random-kiss` or `yarn add random-kiss`

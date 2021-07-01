@@ -16,5 +16,6 @@
 	"homepage": "https://github.com/GamearooCodes/Random-Kiss#readme",
 	"bugs": {
 		"url": "https://github.com/GamearooCodes/Random-Kiss/issues"
-	}
+	},
+	"dependencies": {}
 }

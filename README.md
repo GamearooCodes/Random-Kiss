@@ -17,7 +17,7 @@ console.log(kiss.message("user1", "user2")); //! msg replace user1 with the user
 console.log(kiss.imageurl); //! calls the function for the image! // URL
 ```
 
-## Upgrade to v2.0.0
+## Upgrade to v2.x
 
 ```javascript
 kiss.kissmsg("user1", "user2") to kiss.message("user1", "user2")
